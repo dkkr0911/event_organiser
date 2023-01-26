@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>user-login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/adstyle.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><span>e</span>vento</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="index.html">about</a>
+            <a href="index.html">price</a>
+            <a href="index.html">contact</a>
+            <a href="admin.html">admin</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <section class="lgn">
+
+        <h1 class="heading"> <span>User</span> login </h1>
+        <form action="api/login.php" class="user" method="post" enctype="multipart/form-data">
+            <div class="inputBox">
+
+                <input type="text" name="username" placeholder="Username" required="required"><br>
+                <input type="password" name="password" placeholder="Password" required="required">
+            </div>
+            <input type="submit" value="login" class="btn"><br> <br>New user?
+            <a href="register.html"> Sign up</a>
+        </form>
+    </section>
+    <script src="" async defer></script>
+</body>
+
+</html>

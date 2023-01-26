@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>book-event</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/adstyle.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><span>e</span>vento</a>
+
+        <nav class="navbar">
+            <a href="user.html">home</a>
+            <a href="#contact">contact</a>
+            <a href="#">Hello user</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <section class="lgn">
+
+        <h1 class="heading"> <span>Book Yo</span>ur Event </h1>
+        <form action="api/book.php" class="user" method="post" enctype="multipart/form-data">
+            <div class="inputBox">
+
+                <input type="text" name="name" placeholder="name" required="required">
+                <input type="text" name="mobile" placeholder="mobile" required="required">
+                <input type="text" name="address" placeholder="address" required="required">
+                <input type="date" name="date" placeholder="" required="required">
+                <input list="events" name="event" id="event" required="required">
+                <datalist id="events">
+                    <option value="Birthday">Birthday </option>
+                    <option value="Wedding">Wedding</option>
+                    <option value="Concert">Concert </option>
+                </datalist>
+
+
+            </div>
+            <input type="submit" value="Book" class="btn"><br> <br>
+            <a href="book.html"></a>
+        </form>
+    </section>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
